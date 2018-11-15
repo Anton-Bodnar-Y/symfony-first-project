@@ -27,7 +27,7 @@ class News
     private $category_id;
 
     /**
-     * @ORM\Column(type="string", length=500)
+     * @ORM\Column(type="string", length=1000)
      */
     private $short_description;
 
